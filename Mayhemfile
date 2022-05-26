@@ -1,6 +1,5 @@
 project: rnshah9/kaiju
-target: kaiju
-image: ghcr.io/rnshah9/playground:kaiju
+target: mkbwt
 
 cmds:
   - cmd: /repo/src/bwt/mkbwt -o out @@
