@@ -1,6 +1,6 @@
-project: rnshah9/kaiju
+project: kaiju
 target: mkbwt
 
 cmds:
-  - cmd: /repo/src/bwt/mkbwt -o out @@
+  - cmd: /repo/src/bwt/mkbwt -o /dev/null /test.faa
     filepath: /test.faa
