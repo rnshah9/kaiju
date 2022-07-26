@@ -2,5 +2,4 @@ project: kaiju
 target: mkbwt
 
 cmds:
-  - cmd: /repo/src/bwt/mkbwt -o /dev/null /test.faa
-    filepath: /test.faa
+  - cmd: /mkbwt -o /dev/null @@
